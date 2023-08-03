@@ -1,0 +1,133 @@
+.gpt3__footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #031b34;
+  margin-top: 6rem;
+  padding: 6rem 0 2rem 0;
+}
+.gpt3__footer h1 {
+  padding: 0 16rem; 
+  font-family: var(--font-family);
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+.request {
+  color: #ffffff;
+  display: flex;
+  border: 1px solid #ffffff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin:3rem 0;
+}
+.request p{
+    padding: 23px 39px;
+}
+
+.gpt3__footer-list {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  padding: 0 10rem;
+  margin-top: 5rem;
+}
+
+.gpt3__footer-item {
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 20%;
+}
+.gpt3__footer-item h4 {
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.gpt3__footer-item p {
+  margin: 2rem 0;
+}
+.larger {
+  width: 38%;
+}
+footer {
+  margin-top: 2rem ;
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+@media screen and (max-width:1050px) {
+
+    .gpt3__footer h1 {
+        font-size: 44px;
+        line-height: 50px;
+        padding: 0 8rem;
+    }
+    .gpt3__footer-list{
+        padding:0 2rem;
+    }
+    .request p{
+        padding: 21px 37px;
+    }
+
+}
+@media screen and (max-width:750px) {
+
+    .gpt3__footer h1 {
+        font-size: 40px;
+        line-height: 46px;
+        padding: 0 4rem;
+    }
+
+    .gpt3__footer-list{
+        padding:0 1rem;
+    }
+    .request p{
+        padding: 19px 35px;
+    }
+
+}
+@media screen and (max-width:500px) {
+
+    .gpt3__footer h1 {
+        font-size: 32px;
+        line-height: 38px;
+
+    }
+
+    .gpt3__footer-list{
+        padding:0;
+        flex-direction: column;
+        padding: 3rem;
+    }
+    .gpt3__footer-item{
+
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .gpt3__footer-item p{
+        margin: 1rem 0;
+    }
+    footer{
+        margin-top: 1rem;
+    }
+    .request {
+        margin-bottom: 0;
+    }
+
+
+}

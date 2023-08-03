@@ -1,0 +1,133 @@
+.gpt3__blog {
+  display: flex;
+  flex-direction: column;
+  margin: 0 6rem;
+}
+.gpt3__blog-heading {
+  margin-bottom: 8rem;
+}
+.gpt3__blog-heading h1 {
+  font-family: var(--font-family);
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  width: 50%;
+}
+.gpt3__blog-content {
+  display: flex;
+  color: #ffffff;
+}
+
+.gpt__blog-context-color {
+  background: #042c54;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.gpt3__blog-content div img {
+  width: 100%;
+}
+.gpt3__blog-content-sub {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.gpt3__blog-content-sub div {
+  width: 100%;
+}
+.action-padding {
+  margin: 0 2rem;
+}
+.gpt3__blog-content p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.gpt3__blog-content h2 {
+  font-family: Manrope;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.gpt__blog-context-descript {
+  padding: 2rem 1rem;
+}
+.align-bottom{
+    position: absolute;
+    bottom: 20px;
+}
+
+@media screen and (max-width:990px) {
+    .gpt3__blog-heading{
+        margin-bottom: 4rem;
+    }
+    .gpt3__blog-heading h1{
+        width: 100%;
+    }
+    .gpt3__blog-content{
+        flex-direction: column-reverse;
+    }
+    .action-padding{
+        margin: 0;
+    }
+    .gpt3__blog-content-sub{
+        flex-direction: row;
+        
+    }
+    .gpt3__blog-content-sub div{
+        margin-right: 2rem;
+    }
+    .gpt3__blog-content
+    .gpt__blog-context-color{
+        width: 48%;
+    }
+    .gpt3__blog-content .gpt__blog-context-color {
+        width: 44%;
+    }
+    .align-bottom{
+        bottom: 0;
+    }
+
+}
+@media screen and (max-width:700px) {
+    .gpt3__blog-heading{
+        margin-bottom: 2rem;
+    }
+    .gpt3__blog-heading h1{
+        font-size: 46px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .gpt3__blog-content div {
+        margin-right: 0;
+        width: 100%;        
+    }
+    .gpt3__blog-content-sub{
+        flex-direction: column;
+    }
+    .gpt__blog-context-color{
+        width: 100% !important;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .gpt3__blog {
+        margin: 0 3rem;
+    }
+    .gpt3__blog-heading h1{
+        font-size: 30px;
+        line-height: 36px;
+        width: 100%;
+    }
+    .gpt3__blog-content h2{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
